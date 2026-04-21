@@ -1,0 +1,29 @@
+insert into users values 
+(1,'Sonam', 'sonam@gmail.com'),
+(2,'Shubham', 'shubham@gmail.com'),
+(3,'Siya', 'siya@gmail.com'),
+(4,'Prince', 'prince@gmail.com'),
+(5,'Riya', 'riya@gmail.com'),
+(6,'Vishal', 'vishal@gmail.com'),
+(7,'Kunal', 'kunal@gmail.com'),
+(8,'Bhumi', 'bhumi@gmail.com');
+
+INSERT INTO Job VALUES 
+(1, 'Data Analyst', 'TCS', 'Mumbai'),
+ (2, 'Web Developer', 'Infosys', 'Pune'),
+(3, 'Software Engineer', 'Wipro', 'Bangalore'),
+ (4, 'System Administrator', 'HCL', 'Chennai'),
+ (5, 'Database Administrator', 'IBM', 'Hyderabad'),
+ (6, 'UI/UX Designer', 'Accenture', 'Gurgaon'),
+ (7, 'Cloud Engineer', 'Capgemini', 'Noida'),
+ (8, 'Cybersecurity Analyst', 'Tech Mahindra', 'Delhi');
+
+
+INSERT INTO Applications VALUES (1, 1, 1, 'Applied');
+INSERT INTO Applications VALUES (2, 2, 2, 'Selected');
+INSERT INTO Applications VALUES (3, 3, 3, 'Applied');
+INSERT INTO Applications VALUES (4, 4, 4, 'Rejected');
+INSERT INTO Applications VALUES (5, 5, 5, 'Selected');
+INSERT INTO Applications VALUES (6, 6, 6, 'Applied');
+INSERT INTO Applications VALUES (7, 7, 7, 'Rejected');
+INSERT INTO Applications VALUES (8, 8, 8, 'Selected');

@@ -1,0 +1,31 @@
+-- Show all users
+SELECT * FROM users;
+
+-- Show all jobs
+SELECT * FROM jobs;
+
+-- JOIN (main query)
+SELECT u.name, j.title, a.status
+FROM applications a
+JOIN users u ON a.user_id = u.user_id
+JOIN jobs j ON a.job_id = j.job_id;
+
+-- WHERE (filter)
+SELECT * FROM applications
+WHERE status = 'Applied';
+
+-- ORDER BY (sorting)
+SELECT * FROM users
+ORDER BY name;
+
+-- LIMIT
+SELECT * FROM jobs
+LIMIT 2;
+
+-- AGGREGATE
+SELECT COUNT(*) AS total_users FROM users;
+
+-- GROUP BY
+SELECT user_id, COUNT(*) AS total_applications
+FROM applications
+GROUP BY user_id;
